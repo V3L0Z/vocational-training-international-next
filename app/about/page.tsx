@@ -1,4 +1,4 @@
-export default function Home() {
+export default function About() {
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
@@ -13,7 +13,7 @@ export default function Home() {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn text-white bg-red-700">Get Started</button>
+          <button className="btn btn-secondary">Get Started</button>
         </div>
       </div>
     </div>

@@ -15,6 +15,18 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "rgb(185 28 28)",
+          "primary-focus": "blue",
+          "primary-hover": "mediumred",
+        },
+      },
+    ],
+  },
 };
 export default config;
